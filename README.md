@@ -46,6 +46,7 @@ The current repo now includes a reproducible LOO-CL latent-space audit built on 
 - `scripts/` - reproducible entry points for SHHS prep, LOO-CL audit, and report export
 - `docs/` - repository-facing documentation
 - `reports/` - lightweight figures and summary tables meant for GitHub
+- `local/` - local-only scratch area for ad-hoc one-off utilities kept out of Git
 - `configs/` - local config templates
 - `notes/` - free-form local notes
 - `artifacts/labels/` - generated `is_event.csv`, `time_to_event.csv`, `demo_labels.csv`
@@ -91,3 +92,4 @@ Use `configs/config_finetune_diagnosis_coxph_shhs_local.yaml` after filling in f
 - The split JSON should point to **existing processed/raw HDF5 paths**; the diagnosis dataset later matches them to embedding files by basename.
 - SHHS demographics are available, so a demo+signal model is feasible for this downstream stage.
 - Large local artifacts are intentionally excluded from Git. Use `reports/loo_cl_audit/` for the lightweight bundle and keep `artifacts/` local-only.
+- Older ad-hoc root-level helper scripts are intentionally moved under `local/adhoc_scripts/` and ignored from Git so the repository surface stays focused on the current reproducible path.

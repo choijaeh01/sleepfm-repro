@@ -9,6 +9,7 @@ __pycache__/
 raw/
 artifacts/
 *.log
+local/adhoc_scripts/
 
 # OS / editor noise
 .DS_Store
