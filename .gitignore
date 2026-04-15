@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Local data / large generated artifacts
+raw/
+artifacts/
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

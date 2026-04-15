@@ -1,0 +1,47 @@
+{
+  "base": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\embeddings\\model_base_paperexact\\shhs_5min_agg",
+  "modalities": [
+    "BAS",
+    "RESP",
+    "EKG",
+    "EMG"
+  ],
+  "n_subjects": 5787,
+  "n_windows_total": 582153,
+  "jackknife_scale": "half",
+  "low_quantile": 0.05,
+  "high_quantile": 0.95,
+  "subject_top_k": 10,
+  "alignment_mean_dataset": 0.6265246975675783,
+  "consensus_norm_mean_dataset": 0.7971876024099439,
+  "loo_mean_norm_mean_dataset": 0.8220509832024211,
+  "jackknife_instability_mean_dataset": 0.07890465602130274,
+  "split_score_mean_dataset": 0.22295284620777722,
+  "outlier_score_mean_dataset": 0.1051094539369926,
+  "thresholds": {
+    "consensus_norm_low": 0.7575075030326843,
+    "alignment_mean_low": 0.5499449968338013,
+    "jackknife_instability_high": 0.09742207080125809,
+    "split_score_high": 0.32191285490989685,
+    "outlier_score_high": 0.18992283940315247
+  },
+  "modality_alignment_dataset": {
+    "BAS": 0.5695549995858956,
+    "RESP": 0.6297394902550871,
+    "EKG": 0.6094352129833699,
+    "EMG": 0.6973690872717243
+  },
+  "best_split_partition_fraction_dataset": {
+    "BAS+EKG|RESP+EMG": 0.00795323566141547,
+    "BAS+EMG|RESP+EKG": 0.002562900131065201,
+    "BAS+RESP|EKG+EMG": 0.9894838642075193
+  },
+  "outlier_modality_fraction_dataset": {
+    "BAS": 0.5881821445564998,
+    "EKG": 0.25975989130005345,
+    "EMG": 0.035952747817154594,
+    "RESP": 0.11610521632629223
+  },
+  "subject_csv": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\subject_metrics.csv",
+  "window_csv": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\window_metrics.csv"
+}

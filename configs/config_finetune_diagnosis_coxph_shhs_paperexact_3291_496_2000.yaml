@@ -1,0 +1,36 @@
+# Paper-like SHHS downstream config for SleepFM clinical repo
+model_params:
+  embed_dim: 128
+  num_heads: 4
+  num_layers: 2
+  num_classes: 6
+  pooling_head: 4
+  dropout: 0.3
+  max_seq_length: 6480
+
+max_channels: 4
+chunk_size: 60
+seed: 20
+model: 'DiagnosisFinetuneFullLSTMCOXPHWithDemo'
+dataset: 'shhs'
+
+batch_size: 8
+epochs: 5
+lr: 0.001
+num_workers: 4
+
+model_path: 'C:/Projects/aiot/sleepfm-repro/artifacts/embeddings/model_base_local'
+split_path: 'C:/Projects/aiot/sleepfm-repro/artifacts/splits/shhs_downstream_paperlike_3291_496_2000.json'
+labels_path: 'C:/Projects/aiot/sleepfm-repro/artifacts/labels/shhs_6cvd_paperexact_3291_496_2000'
+demo_labels_path: 'C:/Projects/aiot/sleepfm-repro/artifacts/labels/shhs_6cvd_paperexact_3291_496_2000/demo_labels.csv'
+
+sleep_stages: ""
+save_iter: 100
+eval_iter: 100
+log_interval: 10
+accumulation_steps: 4
+use_wandb: false
+
+max_files: null
+sampling_freq: 128
+modality_types: ["BAS", "RESP", "EKG", "EMG"]

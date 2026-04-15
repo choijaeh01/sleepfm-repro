@@ -1,0 +1,19 @@
+targets:
+  - name: mi
+    event_col: mi
+    time_col: mi_date
+  - name: stroke
+    event_col: stroke
+    time_col: stk_date
+  - name: chf
+    event_col: chf
+    time_col: chf_date
+  - name: cvd_death
+    event_col: cvd_death
+    time_col: cvd_dthdt
+  - name: chd_death
+    event_col: chd_death
+    time_col: chd_dthdt
+  - name: revasc_proc
+    event_col: revasc_proc
+    time_col: revpro_date

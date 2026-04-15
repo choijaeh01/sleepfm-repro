@@ -1,0 +1,81 @@
+{
+  "bundle": {
+    "source_audit_dir": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs",
+    "bundle_dir": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit",
+    "omitted_large_local_artifacts": [
+      "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\window_metrics.csv",
+      "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\diagnosis_geometry_join.csv"
+    ],
+    "notes": [
+      "Large local artifacts are intentionally excluded from the GitHub bundle.",
+      "The bundle keeps notebooks, analysis scripts, small summaries, and figures."
+    ]
+  },
+  "files": [
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\summary.json",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\geometry_summary.json"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\diagnosis_geometry_summary.json",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\diagnosis_geometry_summary.json"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\target_error_summary.csv",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\target_error_summary.csv"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\target_metric_correlation.csv",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\target_metric_correlation.csv"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\scatter_grid_6y.png",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\figures\\scatter_grid_6y.png"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\chf_tail_boxplots_6y.png",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\figures\\chf_tail_boxplots_6y.png"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\chf_risk_rank_vs_tail_metrics_6y.png",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\figures\\chf_risk_rank_vs_tail_metrics_6y.png"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\chf_split_vs_outlier_6y.png",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\figures\\chf_split_vs_outlier_6y.png"
+    },
+    {
+      "type": "copied",
+      "source": "C:\\Projects\\aiot\\sleepfm-repro\\artifacts\\audit\\loo_geometry_model_base_paperexact_shhs\\diagnosis_6y\\chf_example_constellations.png",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\figures\\chf_example_constellations.png"
+    },
+    {
+      "type": "derived_csv",
+      "description": "Top unstable subjects ranked by tail-aware instability summary.",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\subject_tail_top_unstable.csv"
+    },
+    {
+      "type": "derived_csv",
+      "description": "Top stable subjects ranked by tail-aware instability summary.",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\subject_tail_top_stable.csv"
+    },
+    {
+      "type": "derived_csv",
+      "description": "Subject-level dominant split partition frequency table.",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\dominant_split_subject_counts.csv"
+    },
+    {
+      "type": "derived_csv",
+      "description": "Subject-level dominant outlier modality frequency table.",
+      "destination": "C:\\Projects\\aiot\\sleepfm-repro\\reports\\loo_cl_audit\\summaries\\dominant_outlier_subject_counts.csv"
+    }
+  ]
+}
